@@ -1,0 +1,242 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:Roboto,Helvetica,Arial,sans-serif;
+	background-color:#f2f2f2;
+}
+
+.whole-body::-webkit-scrollbar {
+  display: none;
+}
+
+header{
+	background-color:white;
+	display:flex;
+	justify-content:space-evenly;
+	padding:10px 2px 10px 2px;
+	align-items:center;
+	position:sticky;
+	z-index:1;
+	top:0px;
+}
+header a{
+	text-decoration:none;
+	color:#0B0B0B;
+}
+.header-search{
+	background-color:#eff5fb;
+	height:40px;
+	width:45%;
+	display:flex;
+	align-items:center;
+	padding-left:15px;
+	border-radius:10px;
+}
+.header-input{
+	border:none;
+	background:none;
+	outline: 0 none;
+	margin-left:10px;
+	width:70%;
+}
+.header-ellipsis{
+	margin-right:1.5vw;
+}
+
+
+.catagories-container{
+	display:flex;
+	justify-content:space-between;
+	padding:20px 35px 15px 35px ;
+	background-color:white;
+	margin:10px 15px 10px 15px;
+	cursor:pointer;
+}
+.catagories-container *{
+	background-color:white;
+}
+.catagories-child{
+	display:flex;
+	flex-direction:column;
+}
+
+.catagories-img{
+	margin:0 auto;
+}
+.carousel-img{
+	margin: 0 auto;
+	margin-left:1vw;
+	cursor:pointer;
+	width:98%;
+}
+
+.electronics-container{
+	margin-top:1vw;
+	padding-left:1vw;
+	margin-left:1vw;
+	margin-right:1vw;
+	background-color:white;
+}
+.electronics-container *{
+	background-color:white;
+}
+
+.electronics-heading{
+	width:99%;
+}
+
+.electronics-heading-txt{
+	margin-top:1vw;
+	font-size:19px;
+	font-weight:600;
+}
+
+.right-arrow{
+	color:#0066ff;
+	margin-top:1vw;
+	font-size:22px;
+	cursor:pointer;
+}
+
+.e-card{
+	width:15.8vw;
+	height:17vw;
+	border:1px solid #d9d9d9;
+	border-radius:3px;
+	margin-right:17px;
+	cursor:pointer;
+}
+.e-card-img{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height:10.5vw;
+	max-width:15vw;
+}
+
+.e-card-img:hover{
+	height:11vw;
+	max-width:15.3vw;
+}
+
+.e-product-name{
+	font-size:14px;
+}
+
+.e-product-offer{
+	font-weight:600;
+	font-size:14px;
+	cursor:pointer;
+}
+
+
+.img-ad{
+	width:100%;
+	height:23vw;
+}
+
+.big-ad-img{
+	width:96.5vw;
+	margin:0.5vw 2vw ;
+}
+.top-selling-phones{
+	background-color:white;
+}
+
+
+.top-selling-phones *{
+	background-color:white;
+}
+
+.phone-card-img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height:12vw;
+	max-width:15vw;
+	margin-top:10px;
+}
+
+.phone-card-img:hover{
+	height:12.5vw;
+	max-width:15.3vw;
+}
+.mobile-big-ad{
+	cursor:pointer;
+}
+.appliances-container{
+	display:flex;
+}
+
+
+.main-footer{
+	width:96vw;
+	margin:5vw 3vw 2vw 1vw;
+  	text-align: justify;
+}
+
+.main-footer-content{
+	font-size:12px;
+	color:#737373;
+	cursor:pointer;
+	margin-top:4vh;
+}
+
+footer{
+   	background-color:#212121;	
+	color:#fff;	 
+	font-size:12px;
+}
+.f-top{
+	margin:0 0 0 35px;
+	padding:40px 0 0;
+}
+.f-bottom{
+	margin:30px 0 0;
+	padding:25px 0;	
+	border-top:1px solid #878787;	
+	font-size:14px;
+}
+
+.f-heading{
+ 	color: #878787;
+    	font-weight: 400;
+    	margin-bottom: 8px;
+
+}
+footer li a{
+	color:#fff;
+	text-decoration:none;	
+}
+footer li a:hover{
+	color:#fff;
+	text-decoration:underline;	
+}
+
+footer li{
+	list-style-type: none;
+	line-height: 1.4;
+	margin-top:8px;
+}
+.f-top-left ul{
+	padding:0 50px;
+		
+}
+.f-top-left{
+	border-right:1px solid #878787;
+
+}	
+.f-top-right{
+	padding:0 25px;
+}
+.socialMediaIcons:hover{
+	cursor:pointer;
+}
+.f-bottom-quick-links{
+	padding-left:30px;
+
+}
