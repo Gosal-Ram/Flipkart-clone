@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Flipkart-Product-Listing</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/x-icon" href="assets/images/favi-icon.png" />
+      <link rel="stylesheet" href="css/product-listing-css.css"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+       integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+       crossorigin="anonymous" referrerpolicy="no-referrer"/>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   </head>
+   <body>
+    <header>
+
+    <!--- NAVBAR 1--->
+         <nav class="d-flex justify-content-center">
+            <div class="navBar1 d-flex align-items-center p-2 w-100">
+	       	<div class="logoSection ms-auto px-2">
+	          	<a href="" class="text-decoration-none">
+            		<img src="assets/images/login-pg-logo.png" class="flipkart-logo" alt="flipkart-logo" width="80"/>
+		  		</a>
+            </div>
+            <div class="searchBox d-flex justify-content-between align-items-center bg-white px-2 py-1 col-4">    	
+	          	<input class="headerInput" type="text" placeholder="Search for products, brands and more"/>
+		     	<a href="" class="text-decoration-none">
+            		<div class="searchLogo">
+			   			<img src="assets/images/icons8-search-32.png" class="ms-2" alt="flipkart-logo" width="24"/>
+	      			</div>
+		     	</a>
+            </div>
+      	    <div class="loginBox ps-5 pe-3 py-1">	
+	          	<a href="" class="text-decoration-none">
+            	    <p class="login">Gosal</p>
+					<img src="assets/images/down-arrow-white.png" class="" alt="flipkart-logo" width="12"/>						
+		  		</a>
+            </div>
+            <div class="becomeSellerBox px-3">
+		 		<a href="" class="text-decoration-none">
+            	   <p class="">Become a Seller</p>
+		 		</a>
+            </div>
+            <div class="moreBox px-3">
+	          	<a href="" class="text-decoration-none">
+           	    	<p class="">More</p>
+		    		<img src="assets/images/down-arrow-white.png" class="" alt="flipkart-logo" width="12"/>
+		  		</a>
+            </div>
+            <div class="cartBox px-3 me-auto d-flex">
+		  		<a href="" class="text-decoration-none">
+           	    	<img src="assets/images/icons8-shopping-cart-24.png" class="" alt="flipkart-logo" width="20"/>
+           	    	<p>Cart</p>
+		  		</a>
+            </div>
+        	</div>
+	 </nav>
+
+
+    </header>
+    <!--- NAVBAR 2--->
+	<nav class="border-bottom  d-flex justify-content-center">
+	    <div class="navBar2 d-flex justify-content-around align-items-center p-2 w-100">
+               <div class="navBar2Box px-4 d-flex align-items-center ms-auto">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">Electronics</p>
+		    <img src="assets/images/down-arrow-grey.png" class="" alt="flipkart-logo" width="16"/>
+		  </a>
+               </div>
+               <div class="navBar2Box px-4 d-flex align-items-center">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">TVs & Appliances</p>
+		    <img src="assets/images/down-arrow-grey.png" class="" alt="flipkart-logo" width="16"/>
+		  </a>
+               </div>
+               <div class="navBar2Box px-3 d-flex align-items-center">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">Men</p>
+		    <img src="assets/images/down-arrow-grey.png" class="" alt="flipkart-logo" width="16"/>
+		  </a>
+               </div>
+               <div class="navBar2Box px-4 d-flex align-items-center">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">Women</p>
+		    <img src="assets/images/down-arrow-grey.png" class="" alt="flipkart-logo" width="16"/>
+		  </a>
+               </div>
+               <div class="navBar2Box px-4 d-flex align-items-center">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">Baby & Kids</p>
+		    <img src="assets/images/down-arrow-grey.png" class="" alt="flipkart-logo" width="16"/>
+		  </a>
+               </div>
+               <div class="navBar2Box px-4 d-flex align-items-center">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">Home & Furniture</p>
+		    <img src="assets/images/down-arrow-grey.png" class="" alt="flipkart-logo" width="16"/>
+		  </a>
+               </div>
+               <div class="navBar2Box px-4 d-flex align-items-center">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">Sports,Books & More</p>
+		    <img src="assets/images/down-arrow-grey.png" class="" alt="flipkart-logo" width="16"/>
+		  </a>
+               </div>
+               <div class="navBar2Box px-4 d-flex align-items-center">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">Flights</p>
+		  </a>
+               </div>
+               <div class="navBar2Box px-4 d-flex align-items-center me-auto">
+	          <a href="" class="text-decoration-none">
+           	    <p class="navBartext">Offer Zone</p>
+		  		</a>
+               </div>
+	    </div>	    
+	</nav>
+  <main>
+	<div class="d-flex mt-2">
+		<div class="left-flex h-50 ms-2 me-1">
+			<div class= "ms-2 px-0 left-container">
+				<div class="filter-top"><span class="mx-3 ">Filters</span></div>
+
+				<div class="catagories-top ms-3 mt-3">CATEGORIES</div>
+
+				<div class="catagories-txt ms-2 mt-3"><i class="fa-solid fa-xs fa-chevron-left "></i> Mobiles & Accessories</div>
+
+				<div class="catagories-outline mt-2"><span class="catagories-top ms-4">Mobiles</span></div>
+
+				<div class="catagories-top mt-3 ms-3">PRICE</div> 
+
+				<div class="input-cont mt-3 ms-3">
+					<input type="range" class="form-range" id="customRange" name="points">
+				</div>
+
+				<div class="d-flex justify-content-evenly align-items-center">
+					<div class="px-2 py-1 filter-txt-border">
+						<span class="">Min</span>
+						<i class="fa-solid fa-caret-down filterCaret ms-5"></i>
+					</div>
+					<span>to</span>
+					<div class="px-2 py-1 filter-txt-border">
+						<span class="">₹20000+</span>
+						<i class="fa-solid fa-caret-down filterCaret ms-4"></i>
+					</div>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">BRAND</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3"><input type="checkbox"> <img src="assets/images/FlipkartAssured.PNG" alt="Image"></span>
+					<span><img src="assets/images/infoButton.PNG" class="me-2" alt=""></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">CUSTOMER RATINGS</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">GST INVOICE AVAILABLE</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">RAM</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">INTERNAL STORAGE</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">BATTERY CAPACITY</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">SCREEN SIZE</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">PRIMARY CAMERA</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">SECONDARY CAMERA</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">PROCESSOR BRAND</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">SPECIALITY</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">RESOLUTION TYPE</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">OPERATING SYSTEM</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">NETWORK TYPE</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">SIM TYPE</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">OFFERS</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">FEATURES</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">TYPE</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">NUMBER OF CORES</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">AVAILABLITY</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">DISCOUNT</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">OPERTAING SYSTEM VERSION NAME</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+				<div class="d-flex justify-content-between mt-3 pt-2 pb-2 each-filter-container">
+					<span class="each-filter-txt ms-3">CLOCK SPEED</span>
+					<span><i class="fa-solid fa-xs fa-chevron-down fa-xs me-3 text-secondary"></i></span>
+				</div>
+
+			</div>
+			<div class="need-help-container my-3">
+				<div class="need-help-txt">Need help?</div>
+				<div class="help-me-txt">Help me decide <i class="fa-xs fa-chevron-right fa-solid"></i></div>
+				<img src="assets/images/needHelpImage.PNG">
+			</div>
+		</div>
+
+		<div class="right-flex mx-2">
+			<span class="page-path">
+				   Home <i class="fa-solid fa-chevron-right fa-xs"></i> 
+				   Mobile & A..<i class="fa-solid fa-chevron-right fa-xs"></i> 
+				   Mobiles
+		 	</span>
+ 			<div class="search-results">Showing 1 – 24 of 8,682 results for "Motorola G64 5G"</div>
+ 
+ 			<div class="d-flex filter-products justify-content-between">
+	 			<span class="sort">Sort By</span>
+	 			<span class="text-primary text-decoration-underline">Relevance</span>
+	 			<span>Popularity</span>
+	 			<span>Price -- Low to High</span>
+	 			<span>Price -- High to Low</span>
+	 			<span>Newest First</span>
+ 			</div>
+ 
+			 <div class="row mobile-container">
+				<div class="col-3 mobile-img-child-1">
+					<img class="product-img" src="assets/images/PhoneImage1.png" alt="Phone_Image" width="150">
+					<div class="add-to-compare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Pearl Blue, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 12 GB RAM | 256 GB ROM | Expandable Upto 1 TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+
+
+			<div class="row mobile-container">
+				<div class="col-3">
+					<img class="product-img" src="assets/images/PhoneImage2.png" alt="Phone_Image" width="150">
+					<div class="addToCompare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Mint Green, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>12 GB RAM | 256 GB ROM | Expandable Upto 2TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year  Months Manufacturer Warranty</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+
+			<div class="row mobile-container">
+				<div class="col-3 mobile-img-child-1">
+					<img class="product-img" src="assets/images/PhoneImage1.png" alt="Phone_Image" width="150">
+					<div class="add-to-compare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Pearl Blue, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 12 GB RAM | 256 GB ROM | Expandable Upto 1 TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+
+
+			<div class="row mobile-container">
+				<div class="col-3">
+					<img class="product-img" src="assets/images/PhoneImage2.png" alt="Phone_Image" width="150">
+					<div class="addToCompare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Mint Green, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>12 GB RAM | 256 GB ROM | Expandable Upto 2TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year  Months Manufacturer Warranty</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+			<div class="row mobile-container">
+				<div class="col-3 mobile-img-child-1">
+					<img class="product-img" src="assets/images/PhoneImage1.png" alt="Phone_Image" width="150">
+					<div class="add-to-compare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Pearl Blue, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 12 GB RAM | 256 GB ROM | Expandable Upto 1 TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+
+
+			<div class="row mobile-container">
+				<div class="col-3">
+					<img class="product-img" src="assets/images/PhoneImage2.png" alt="Phone_Image" width="150">
+					<div class="addToCompare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Mint Green, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>12 GB RAM | 256 GB ROM | Expandable Upto 2TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year  Months Manufacturer Warranty</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+			<div class="row mobile-container">
+				<div class="col-3 mobile-img-child-1">
+					<img class="product-img" src="assets/images/PhoneImage1.png" alt="Phone_Image" width="150">
+					<div class="add-to-compare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Pearl Blue, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 12 GB RAM | 256 GB ROM | Expandable Upto 1 TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+
+
+			<div class="row mobile-container">
+				<div class="col-3">
+					<img class="product-img" src="assets/images/PhoneImage2.png" alt="Phone_Image" width="150">
+					<div class="addToCompare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Mint Green, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>12 GB RAM | 256 GB ROM | Expandable Upto 2TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year  Months Manufacturer Warranty</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+			<div class="row mobile-container">
+				<div class="col-3 mobile-img-child-1">
+					<img class="product-img" src="assets/images/PhoneImage1.png" alt="Phone_Image" width="150">
+					<div class="add-to-compare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Pearl Blue, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 12 GB RAM | 256 GB ROM | Expandable Upto 1 TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+
+
+			<div class="row mobile-container">
+				<div class="col-3">
+					<img class="product-img" src="assets/images/PhoneImage2.png" alt="Phone_Image" width="150">
+					<div class="addToCompare"><input type="checkbox"> Add to Compare</div>
+				</div>
+				<div class="col-5 mobile-con-child-2">
+					<span class="sponsored-txt">sponsored</span>
+					<div class="product-name">Motorola g64 5G (Mint Green, 256 GB)</div>
+					<div class="product-specs mt-2"><span class="rating-txt">4.2 <i class="fa-solid fa-star fa-sm"></i></span> <span class="reviewsNumber">25,314 & 3,185 Reviews</span></div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>12 GB RAM | 256 GB ROM | Expandable Upto 2TB</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span>16.51 cm (6.5 inch) Full HD+ Display</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 50MP (OIS) + 8MP | 16MP Front Camera</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 6000 mAh Battery</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> Dimensity 7025 Processor</div>
+					<div class="product-specs"><span class="bulletin">&bull;</span> 1 Year  Months Manufacturer Warranty</div>
+				</div>
+				<div class="col-3 ms-4">
+					<div class="d-flex"><span class="fs-4 fw-bold">₹14,999</span><img src="assets/images/FlipkartAssured.PNG" class="ms-4" height="24x" alt="FlipkartAssuredImage"></div>
+					<div ><span class="original-price">₹19,999</span><span class="percentageOff">25% off</span></div>
+					<div class="free-delivery">Free Delivery</div>
+					<div class="saveExtra">Save extra with combo offers</div>
+					<div class="exchangeClass">Upto <span class="fw-bold">₹8,600</span> on exchange</div>
+				</div>
+			</div>
+
+
+
+ <div class="allPages">
+	 <span class="pageNumber ms-2">Page 1 of 430</span>
+	 <div clas="d-flex justify-content-between allNumberDivision">
+		 <span class="pageNo1">1</span>
+		 <span class="pageNo">2</span>
+		 <span class="pageNo">3</span>
+		 <span class="pageNo">4</span>
+		 <span class="pageNo">5</span>
+		 <span class="pageNo">6</span>
+		 <span class="pageNo">7</span>
+		 <span class="pageNo">8</span>
+		 <span class="pageNo">9</span>
+		 <span class="pageNo">10</span>
+		 <span class="nextSpan">NEXT</span>
+	 </div>
+ </div>
+<div class="lookingForDiv ps-2">
+ <span class="lookingForSpan">Did you find what you were looking for?</span>
+ <span class="YesResponse">Yes</span>
+ <span class="NoResponse">No</span>
+</div>
+
+		</div>
+	</div>	
+
+  </main>
+  <footer> 
+     <div class="f-top d-flex">
+	<div class="f-top-left d-flex pe-5">
+	   <ul>
+	      <div class="f-heading">ABOUT</div>
+	      <li><a href="">Contact Us</a></li>
+	      <li><a href="">About Us</a></li>
+	      <li><a href="">Careers</a></li>
+	      <li><a href="">Flipkart Stories</a></li>
+	      <li><a href="">Press</a></li>
+	      <li><a href="">Corporate Information</a></li>
+	   </ul>
+	   <ul>
+	      <div class="f-heading">GROUP COMPANIES</div>
+	      <li><a href="">Myntra</a></li>
+	      <li><a href="">Cleartrip</a></li>
+	      <li><a href="">Shopsy</a></li>
+	   </ul>
+	   <ul>
+	      <div class="f-heading">HELP</div>
+	      <li><a href="">Payments</a></li>
+	      <li><a href="">Shipping</a></li>
+	      <li><a href="">Cancellation & Returns</a></li>
+	      <li><a href="">FAQ</a></li>
+	      <li><a href="">Report Infringement</a></li>
+	   </ul>
+	   <ul>
+	      <div class="f-heading">CONSUMER POLICY</div>
+	      <li><a href="">Cancellation & Returns</a></li>
+	      <li><a href="">Terms of Use</a></li>
+	      <li><a href="">Security</a></li>
+	      <li><a href="">Privacy</a></li>
+	      <li><a href="">Sitemap</a></li>
+	      <li><a href="">Grievance Redressal</a></li>
+	      <li><a href="">EPR Compliance</a></li>
+	   </ul>
+	</div>
+	<div class="f-top-right d-flex">
+	   <ul>
+	      <div class="f-heading">Mail Us:</div>
+	      <li>Flipkart Internet Private Limited,<br/>
+		  Buildings Alyssa, Begonia &<br/>
+		  Clove Embassy Tech Village,<br/>
+		  Outer Ring Road, Devarabeesanahalli Village,<br/>
+		  Bengaluru, 560103,<br/>Karnataka, India
+	      </li>
+	      <li class="mt-3">
+	      	<div class="f-heading">Social</div>
+	      	<div class="socialMediaIcons">
+		   <img src="assets/images/social-icons.png" alt="social-icon" width="120">
+		</div>
+	      </li>
+	   </ul>
+	   <ul>
+	      <div class="f-heading">Registered Office Address:</div>
+	      <li>Flipkart Internet Private Limited,<br/>
+		  Buildings Alyssa, Begonia &<br/>
+		  Clove Embassy Tech Village,<br/>
+		  Outer Ring Road, Devarabeesanahalli Village,<br/>
+		  Bengaluru, 560103,<br/>Karnataka, India<br/>
+		  CIN : U51109KA2012PTC066107<br/>
+		  Telephone: <span class="text-primary">044-45614700</span> / <span class="text-primary">044-67415800</span>
+	      </li>
+	   </ul>
+	</div>
+     </div>
+     <div class="f-bottom"d-flex justify-content-center>
+	<div class="f-bottom-quick-links d-flex justify-content-around align-items-center">
+	   <div class="quickLink1 px-4">
+	      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhb		nNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K" alt="">
+	      <a href="" class="text-decoration-none text-white ms-1"><span class="">Become a Seller</span></a>
+	   </div>
+	   <div class="quickLink2 px-4">
+	      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=" alt="">
+	      <a href="" class="text-decoration-none text-white ms-1"><span class="">Advertise</span></a>
+	   </div>
+	   <div class="quickLink3 px-4">
+	      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwI		DAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg==" alt="">
+	      <a href="" class="text-decoration-none text-white ms-1"><span class="">Gift-cards</span></a>
+	   </div>
+	   <div class="quickLink4 px-4">
+	      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2L		jVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=" alt="">
+	      <a href="" class="text-decoration-none text-white ms-1"><span class="">Help Center</span></a>
+	   </div>
+	   <div class="quickLink5 px-4">
+	      <a href="" class="text-decoration-none text-white ms-1"><span class="">© 2007-2024 Flipkart.com</span></a>
+	   </div>
+	   <div class="quickLink5 px-4">
+	      <img src="assets/images/payment-methods.svg" alt="cards"">
+	   </div>
+	</div>
+     </div>
+  </footer>
+   
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
